@@ -30,3 +30,13 @@
 | Edit + Commit | 在**你的副本**里保存一次改动,commit 就是"存档点" |
 | Open pull request | 向原作者申请:"我这份副本里有个改动,请你们收下" |
 | Merge | 原作者接受了,把你的改动合并进原仓库 |
+
+
+装好 Git 之后,一辈子高频使用的就这几条:
+git status              # 我现在动了哪些文件
+git add .               # 把这些改动放进待提交区
+git commit -m "说明"    # 存一个档
+git push                # 把存档推到 GitHub
+git pull                # 把 GitHub 上的新内容拉下来
+git switch -c 新分支名   # 开一条新分支
+git log --oneline       # 看提交历史
